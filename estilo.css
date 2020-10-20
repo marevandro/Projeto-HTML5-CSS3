@@ -1,0 +1,21 @@
+body {
+    background-color: hsl(51, 65%, 50%);
+    color: rgba(0 0 0 1);
+
+}
+p {
+    text-align: justify;
+    text-align: 50px;
+}
+
+/* Formatação de imagens com legendas*/
+
+figure.foto-legenda {
+    border: 8px solid red;
+}
+
+figure.foto-legenda {
+    width: 100px;
+    height: 100px;
+}
+
