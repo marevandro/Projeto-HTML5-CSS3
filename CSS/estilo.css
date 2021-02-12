@@ -7,3 +7,24 @@ p {
     text-align: justify;
     text-align: 50px;
 }
+
+/* Formatação do Menu*/
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 500px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: cornsilk;
+    padding: 10px;
+    margin: 2px;
+}
