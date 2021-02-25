@@ -10,8 +10,11 @@ p {
 
 /* Formatação do Menu*/
 
+
+
 nav#menu {
     display: block;
+    color: aliceblue;
 }
 
 nav#menu ul {
@@ -27,4 +30,24 @@ nav#menu li{
     background-color: cornsilk;
     padding: 10px;
     margin: 2px;
+    /*transition: background-color 1ms;*/
+    -ms-transition: background-color 5ms;
+}
+
+nav#menu li:hover{
+    background-color: #d81414;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none
+}
+
+nav#menu a:hover{
+    color: #fffff;
+    text-decoration: underline; 
 }
